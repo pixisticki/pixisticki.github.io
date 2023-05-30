@@ -3,6 +3,7 @@
 "use client";
 
 import Typewriter from "typewriter-effect";
+import { Tooltip } from 'react-tooltip'
 import styles from "./rainbows.module.css";
 
 const profileImageUrl = "https://cdn.discordapp.com/avatars/804066391614423061/dd45e4da4d2f502597f5dba7b28e1b4e.png";
@@ -72,10 +73,14 @@ export default function Home() {
             />
             <img
               className="cursor-pointer rounded-none h-10 w-10 m-3 hover:drop-shadow-glow hover:opacity-60 hover:rotate-360 transition ease-in-out duration-700"
+              id="tooltip"
               src={discordImageUrl}
               alt="Discord"
               onClick={onDiscordClick}
             />
+            <Tooltip anchorSelect="#tooltip" clickable>
+              anyastrophic#2775
+            </Tooltip>
           </div>
         </div>
       </div>

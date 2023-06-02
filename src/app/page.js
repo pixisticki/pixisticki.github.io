@@ -6,7 +6,7 @@ import Typewriter from "typewriter-effect";
 import { Tooltip } from 'react-tooltip'
 import styles from "./rainbows.module.css";
 
-const profileImageUrl = "https://cdn.discordapp.com/avatars/804066391614423061/dd45e4da4d2f502597f5dba7b28e1b4e.png";
+const profileImageUrl = "https://cdn.discordapp.com/avatars/804066391614423061/a_1d21b6390be3184ecb49f6cc3ea0f42c.webp";
 const githubImageUrl = "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png";
 const robloxImageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Roblox_Logo.svg/1200px-Roblox_Logo.svg.png";
 const discordImageUrl = "https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6ca814282eca7172c6_icon_clyde_white_RGB.svg";

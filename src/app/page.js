@@ -12,24 +12,32 @@ const robloxImageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6
 const discordImageUrl = "https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6ca814282eca7172c6_icon_clyde_white_RGB.svg";
 const spotifyImageUrl = "./spotify.png";
 
+function openInNewTab(href) {
+  Object.assign(document.createElement('a'), {
+    target: '_blank',
+    rel: 'noopener noreferrer',
+    href: href,
+  }).click();
+}
+
 function onGithubClick() {
-  window.location.assign("https://github.com/anyastrophic");
+  openInNewTab("https://github.com/anyastrophic");
 }
 
 function onRobloxClick() {
-  window.location.assign("https://roblox.com/users/2947401001/profile");
+  openInNewTab("https://roblox.com/users/2947401001/profile");
 }
 
 function onDiscordClick() {
-  window.location.assign("discord://-/users/804066391614423061");
+  openInNewTab("discord://-/users/804066391614423061");
 }
 
 function onSpotifyClick() {
-  window.location.assign("spotify://user/31cet4a7zb4ec4w3vpz6qxvtmyde");
+  openInNewTab("spotify://user/31cet4a7zb4ec4w3vpz6qxvtmyde");
 }
 
 function onAvatarClick() {
-  window.location.assign("https://nyaa.si/view/1670778");
+  openInNewTab("https://nyaa.si/view/1670778");
 }
 
 export default function Home() {

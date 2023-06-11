@@ -28,6 +28,10 @@ function onSpotifyClick() {
   window.location.assign("spotify://user/31cet4a7zb4ec4w3vpz6qxvtmyde");
 }
 
+function onAvatarClick() {
+  window.location.assign("https://nyaa.si/view/1670778");
+}
+
 export default function Home() {
   return (
     <div className="flex h-screen justify-center items-center">
@@ -35,9 +39,10 @@ export default function Home() {
         <div className="flex flex-col">
           <div className="flex items-center justify-center">
             <img
-              className="opacity-100 rounded-full mb-10 mt-10 h-48 w-48 hover:rotate-360 transition ease-in-out duration-1000"
+              className="cursor-pointer opacity-100 rounded-full mb-10 mt-10 h-48 w-48 hover:rotate-360 transition ease-in-out duration-1000"
               src={profileImageUrl}
-              alt="Profile" 
+              alt="Profile"
+              onClick={onAvatarClick}
             />
           </div>
 

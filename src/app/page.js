@@ -78,16 +78,16 @@ export default function Home() {
             />
             <img
               className="cursor-pointer rounded-none h-10 w-10 m-3 hover:drop-shadow-glow hover:opacity-60 hover:rotate-360 transition ease-in-out duration-700"
+              src={spotifyImageUrl}
+              alt="Spotify"
+              onClick={onSpotifyClick}
+            />
+            <img
+              className="cursor-pointer rounded-none h-10 w-10 m-3 hover:drop-shadow-glow hover:opacity-60 hover:rotate-360 transition ease-in-out duration-700"
               id="tooltip"
               src={discordImageUrl}
               alt="Discord"
               onClick={onDiscordClick}
-            />
-            <img
-              className="cursor-pointer rounded-none h-10 w-10 m-3 hover:drop-shadow-glow hover:opacity-60 hover:rotate-360 transition ease-in-out duration-700"
-              src={spotifyImageUrl}
-              alt="Spotify"
-              onClick={onSpotifyClick}
             />
             <Tooltip anchorSelect="#tooltip" clickable>
               anyastrophic#2775

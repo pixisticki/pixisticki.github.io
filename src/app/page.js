@@ -10,6 +10,7 @@ const profileImageUrl = "./avatar.png";
 const githubImageUrl = "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png";
 const robloxImageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Roblox_Logo.svg/1200px-Roblox_Logo.svg.png";
 const discordImageUrl = "https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6ca814282eca7172c6_icon_clyde_white_RGB.svg";
+const spotifyImageUrl = "https://www.iconsdb.com/icons/preview/white/spotify-xxl.png";
 
 function onGithubClick() {
   window.location.assign("https://github.com/anyastrophic");
@@ -21,6 +22,10 @@ function onRobloxClick() {
 
 function onDiscordClick() {
   window.location.assign("discord://-/users/804066391614423061");
+}
+
+function onSpotifyClick() {
+  window.location.assign("spotify://user/31cet4a7zb4ec4w3vpz6qxvtmyde");
 }
 
 export default function Home() {
@@ -77,6 +82,12 @@ export default function Home() {
               src={discordImageUrl}
               alt="Discord"
               onClick={onDiscordClick}
+            />
+            <img
+              className="cursor-pointer rounded-none h-10 w-10 m-3 hover:drop-shadow-glow hover:opacity-60 hover:rotate-360 transition ease-in-out duration-700"
+              src={spotifyImageUrl}
+              alt="Spotify"
+              onClick={onSpotifyClick}
             />
             <Tooltip anchorSelect="#tooltip" clickable>
               anyastrophic#2775

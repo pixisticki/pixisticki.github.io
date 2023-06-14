@@ -103,7 +103,7 @@ export default function Home() {
               onClick={onDiscordClick}
             />
             <Tooltip anchorSelect="#tooltip" clickable>
-              anyastrophic#2775
+              @cookingchannel ( don't ask )
             </Tooltip>
           </div>
         </div>

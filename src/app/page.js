@@ -74,7 +74,7 @@ export default function Home() {
             <div className={`w-[10rem] h-[0.05rem] ${styles._rainbowDivider}`}></div>
           </h2>
           <h3 className="self-center text-sm w-72 mt-4 text-zinc-400">
-            <i>"this is such a cool quote, truly one of the quotes ever"</i> - Nobody Ever
+            <i>"No good deed goes unpunished"</i> - Origin unknown
           </h3>
           <div className="flex self-center items-center mt-6">
             <img

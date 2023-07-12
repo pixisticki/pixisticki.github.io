@@ -47,7 +47,7 @@ export default function Home() {
         <div className="flex flex-col">
           <div className="flex items-center justify-center">
             <img
-              className="cursor-pointer opacity-100 rounded-full mb-10 mt-10 h-48 w-48 hover:rotate-360 transition ease-in-out duration-1000"
+              className="cursor-pointer opacity-100 rounded-full mb-6 mt-10 h-48 w-48 hover:rotate-360 transition ease-in-out duration-1000"
               src={profileImageUrl}
               alt="Profile"
               onClick={onAvatarClick}

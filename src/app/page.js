@@ -74,7 +74,7 @@ export default function Home() {
             <div className={`w-[10rem] h-[0.05rem] ${styles._rainbowDivider}`}></div>
           </h2>
           <h3 className="self-center text-sm mt-4 text-zinc-400">
-            <a className="font-bold">“</a><i>No good deed goes unpunished</i><a className="font-bold">„</a></br> - Origin unknown
+            <a className="font-bold">“</a><i>No good deed goes unpunished</i><a className="font-bold">„</a><br/> - Origin unknown
           </h3>
           <div className="flex self-center items-center mt-6">
             <img

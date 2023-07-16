@@ -6,8 +6,8 @@ import Typewriter from "typewriter-effect";
 import { Tooltip } from 'react-tooltip'
 import styles from "./rainbows.module.css";
 
-const profileImageUrl = "./compressy.png";
-const githubImageUrl = "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png";
+const profileImageUrl = "./pfp.png";
+const twitterImageUrl = "https://cdn.discordapp.com/attachments/1037624855769653269/1129929199294091395/twitter-icon-18-256.png";
 const robloxImageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Roblox_Logo.svg/1200px-Roblox_Logo.svg.png";
 const discordImageUrl = "https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6ca814282eca7172c6_icon_clyde_white_RGB.svg";
 const spotifyImageUrl = "./spotify.png";
@@ -20,20 +20,20 @@ function openInNewTab(href) {
   }).click();
 }
 
-function onGithubClick() {
-  openInNewTab("https://github.com/anyastrophic");
+function onTwitterClick() {
+  openInNewTab("https://twitter.com/pixisticki");
 }
 
 function onRobloxClick() {
-  openInNewTab("https://roblox.com/users/2947401001/profile");
+  openInNewTab("https://www.roblox.com/users/413362880/profile");
 }
 
 function onDiscordClick() {
-  openInNewTab("discord://-/users/804066391614423061");
+  openInNewTab("discord://-/users/621106653445750806");
 }
 
 function onSpotifyClick() {
-  openInNewTab("spotify://user/31cet4a7zb4ec4w3vpz6qxvtmyde");
+  openInNewTab("https://open.spotify.com/user/m43wuxnd5ke7la7w9p5i4b5sh?si=bf41af7faba24df3");
 }
 
 function onAvatarClick() {
@@ -55,16 +55,15 @@ export default function Home() {
           </div>
 
           <h1 className="self-center text-2xl text-zinc-100">
-            Hey, I'm anya!
-            <div className={`w-[10rem] h-[0.1rem] ${styles.rainbowDivider}`}></div>
+            Hey, I'm pixi!
+            <div className={`w-[10rem] h-[0.05rem] ${styles.rainbowDivider}`}></div>
           </h1>
           <h2 className="self-center mt-2 text-zinc-200">
             <Typewriter
               options={{
                 strings: [
-                  'A Graphic Designer',
-                  'A Python Developer',
-                  'A Lua Developer',
+                  'A professional idiot',
+                  'An anya lover ❤️',
                 ],
                 autoStart: true,
                 loop: true,
@@ -74,7 +73,7 @@ export default function Home() {
             <div className={`w-[10rem] h-[0.05rem] ${styles._rainbowDivider}`}></div>
           </h2>
           <h3 className="self-center text-sm mt-4 text-zinc-400">
-            <a className="font-bold text-xl">“</a><i>No good deed goes unpunished</i><a className="font-bold text-xl">„</a><br/> - Unknown origin
+            <a className="font-bold text-sm">“</a><i>If you spend your time, chasing butterflies, they’ll fly away. But, If you spend your time building a beautiful garden, the butterflies will come. And if they don’t, you will still have your beautiful garden</i><a className="font-bold text-xl">„</a><br/> - idk
           </h3>
           <div className="flex self-center items-center mt-6">
             <img
@@ -85,9 +84,9 @@ export default function Home() {
             />
             <img
               className="cursor-pointer rounded-full h-10 w-10 m-3 hover:drop-shadow-glow hover:opacity-60 hover:rotate-360 transition ease-in-out duration-700"
-              src={githubImageUrl}
-              alt="GitHub"
-              onClick={onGithubClick}
+              src={twitterImageUrl}
+              alt="Twitter"
+              onClick={onTwitterClick}
             />
             <img
               className="cursor-pointer rounded-none h-10 w-10 m-3 hover:drop-shadow-glow hover:opacity-60 hover:rotate-360 transition ease-in-out duration-700"
@@ -103,7 +102,7 @@ export default function Home() {
               onClick={onDiscordClick}
             />
             <Tooltip anchorSelect="#tooltip" clickable>
-              @cookingchannel ( don't ask )
+              @pixisticki
             </Tooltip>
           </div>
         </div>

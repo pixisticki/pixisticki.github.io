@@ -33,11 +33,11 @@ function onDiscordClick() {
 }
 
 function onSpotifyClick() {
-  openInNewTab("https://open.spotify.com/user/m43wuxnd5ke7la7w9p5i4b5sh?si=bf41af7faba24df3");
+  openInNewTab("spotify://user/m43wuxnd5ke7la7w9p5i4b5sh");
 }
 
 function onAvatarClick() {
-  openInNewTab("https://nyaa.si/view/1670778");
+  openInNewTab("www.google.com/search?q=i+dont+know+the+source");
 }
 
 export default function Home() {
